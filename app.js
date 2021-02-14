@@ -140,7 +140,5 @@ sliderBtn.addEventListener('click', function () {
 // spinner 
 const toggleSpinner = () => { 
     const spinner = document.getElementById('loading_spinner');
-    console.log(spinner.classList);
     spinner.classList.toggle('d-none');
-    console.log(spinner.classList);
 }
